@@ -1,0 +1,12 @@
+server:
+  context-path: micro
+    port:080
+
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://cap-sg-prd-4.securegateway.appdomain.cloud/inventorydb
+    username: dbuser
+    password: Pass4dbUs3R
+  jpa:
+    database: MYSQL
