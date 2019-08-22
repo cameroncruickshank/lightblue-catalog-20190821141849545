@@ -15,4 +15,3 @@ import org.springframework.stereotype.Repository;
 @Transactional
 public interface InventoryRepo extends CrudRepository<Inventory, Long> {
 }
-
